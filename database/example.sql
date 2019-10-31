@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 31, 2019 at 06:26 PM
+-- Generation Time: Oct 31, 2019 at 07:26 PM
 -- Server version: 5.7.27-0ubuntu0.18.04.1
 -- PHP Version: 7.2.19-0ubuntu0.18.04.2
 
@@ -28,7 +28,8 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `widgets`;
 CREATE TABLE `widgets` (
-  `id` int(11) NOT NULL
+  `id` int(11) NOT NULL,
+  `finally` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
